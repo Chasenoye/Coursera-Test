@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+body { 
+	background-color: white;
+	 }
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+}
+.container { 
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 3.2%;
+	margin-bottom: 3.2%:;
+	margin-left: 1.6%;
+	margin-right: 1.6%;
+	position: relative;
+	padding: 40px 10px 10px 10px; 
+}
+.green {
+	background-color: #70C1B3
+}
+.red {
+	background-color: #FF1654
+}
+.yellow {
+	background-color: #F3FFBD;
+}
+.element {
+	top: 0px;
+	right: 0px;
+	font-size: 1.5em;
+	border: 1px solid black;
+	position: absolute;
+	text-align: center;
+	width: 33%;
+}
+/** Desktop view **/
+@media (min-width: 992px) {
+	#s1 {
+	width: 30%;
+	float: left;
+	}
+	#s2 {
+	width: 30%;
+	float: left;
+	}
+	#s3 {
+	width: 30%;
+	float: left;
+	}
+}
+/*** Tablet view **/
+@media (min-width: 768px) and (max-width: 991px) {
+	#s1 {
+	width: 46.8%;
+	float: left;
+	}
+	#s2 {
+	width: 46.8%;
+	float: left;
+	}
+	#s3 {
+	width: 96.8%;
+	float: left;
+	clear:left;
+	}
+}
+/** Mobile View **//
+@media (max-width: 767px) {
+	#s1 {
+	clear: left;
+	}
+	#s2 {
+	clear: left;
+	}
+	#s3 {
+	clear: left;
+	}
+}
+Contact GitHub API Training Shop Blog About
