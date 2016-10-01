@@ -47,18 +47,27 @@
 }
 
 .navbar-default .navbar-collapse {
-	margin-top:5px;
+	margin-top:0px;
 	border: 0px;
 	list-style-type: none;
+
 }
 
-.container {
-  transition: padding 500;
+.container .col-xs-12 {
+	background:#ef233c;
+	color: #edf2f4;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
 }
 
-.container-is-open {
-  padding-top:200px;
+nav.navbar.open {
+  margin-bottom: 120px;
 }
+
+#main-content {
+	margin-bottom: 25px;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
