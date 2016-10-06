@@ -5,7 +5,6 @@
 	background-color: #2b2d42;
 	border-radius: 0;
 	border: 0;
-	height: 75px;
 }
 
 .navbar-brand {
@@ -60,6 +59,8 @@
 	padding-bottom: 15px;
 }
 
+
+
 nav.navbar.open {
   margin-bottom: 120px;
 }
@@ -71,22 +72,33 @@ nav.navbar.open {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+	#header-nav {
+	height: 75px;
+}
 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  
-  }
+  #header-nav {
+	height: 75px;
+}
+
 
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+	#header-nav {
+	height: 75px;
+}
 
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+	.container .col-xs-12 {
+
+	}
  
 
